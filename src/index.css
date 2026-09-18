@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --plum: #6B2D5C;
+    --plum-soft: #8B4A78;
+    --gold: #E8B04B;
+    --bg-canvas: #FAF7F5;
+    --card-bg: #FFFFFF;
+    --line: #F0ECE9;
+    --text-primary: #1A1A1A;
+    --muted: #6B6B6B;
+    --faint: #9A9490;
+    --green: #2E9E6B;
+    --green-bg: #E7F5EE;
+    --amber: #C77F1A;
+    --amber-bg: #FDF3E2;
+    --red: #D9534F;
+    --red-bg: #FDECEB;
+    --blue: #3B6FA8;
+    --blue-bg: #EAF1F9;
+  }
+
+  body {
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background-color: #0f0d12;
+    color: #1A1A1A;
+    -webkit-tap-highlight-color: transparent;
+  }
+}
+
+/* Custom scrollbar hiding */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Subtle smooth gradient for plum branding */
+.bg-plum-gradient {
+  background: linear-gradient(135deg, #6B2D5C, #8B4A78);
+}
+.bg-gold-gradient {
+  background: linear-gradient(135deg, #D99B33, #E8B04B);
+}
+.bg-blue-gradient {
+  background: linear-gradient(135deg, #35608F, #5B8FC7);
+}
+.bg-green-gradient {
+  background: linear-gradient(135deg, #25855A, #4BB98A);
+}

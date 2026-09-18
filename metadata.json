@@ -1,0 +1,7 @@
+{
+  "name": "Huaid Dance World",
+  "description": "A dance studio management and booking platform for studio owners, teachers, and students.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
